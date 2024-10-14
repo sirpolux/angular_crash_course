@@ -1,0 +1,11 @@
+
+<div  id="displayInput" class="mt-6 bg-gray-100 p-4 rounded-md shadow-md card m-2">
+  <!-- This is where the input will be displayed -->
+  <h3 class="text-lg font-medium text-gray-800">User Input:</h3>
+  <p class="mt-2 text-sm text-gray-600">Name: {{message.name}}  <span id="nameDisplay"></span></p>
+  <p class="mt-1 text-sm text-gray-600">Email: {{message.email}} <span id="emailDisplay"></span></p>
+  <p class="mt-1 text-sm text-gray-600">Message:  {{message.message}} <span id="messageDisplay"></span></p>
+  <button 
+  (click)="onDelete()"
+  >Delete</button>
+</div>
