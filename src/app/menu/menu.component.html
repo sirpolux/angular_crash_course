@@ -4,11 +4,14 @@
         <div class="flex">
           <div class=" space-x-8 sm:-my-px sm:ml-10 sm:flex">
             <!-- Home Menu Item -->
-            <a href="#" class="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-lg font-medium">
+            <a routerLink="/home" class="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-lg font-medium">
               Home
             </a>
             <!-- About Menu Item -->
-            <a href="#" class="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-lg font-medium">
+            <a 
+            href="javascript:void(0)"
+            (click)="navigateToAbout()"
+             class="text-gray-900 hover:text-blue-500 px-3 py-2 rounded-md text-lg font-medium">
               About
             </a>
           </div>
